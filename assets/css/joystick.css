@@ -171,6 +171,11 @@
   height: 410px;
 }
 
+.joystick-latest-projects {
+  background-color: black;
+  margin-top: 230px;
+}
+
 .joystick-img-content-left {
   position: relative;
   z-index: 1;
