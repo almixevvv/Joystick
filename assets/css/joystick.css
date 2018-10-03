@@ -1,0 +1,938 @@
+@font-face{
+  font-family: 'Futura-Medium';
+  src: url('../../fonts/Futura Medium.otf') format("opentype");
+}
+
+@font-face{
+  font-family: 'Futura-Bold';
+  src: url('../../fonts/Futura Heavy font.ttf');
+}
+
+@font-face{
+  font-family: 'Futura-Medium-Thick';
+  src: url('../../fonts/futura medium bt.ttf');
+}
+
+.joystick-fonts-logo {
+  font-family: Futura-Bold;
+}
+
+.joystick-brand {
+	font-size: 75px;
+  font-variant: normal;
+  font-weight: 700;
+}
+
+.joystick-nav {
+	font-size: 20px;
+  font-family: Futura-Medium;
+	color: #fefefe;
+}
+
+.joystick-img-logo {
+  margin-top: 90px; 
+  margin-bottom: 165px;
+}
+
+.joystick-main-bg {
+	background-color: #31302e;
+}
+
+.joystick-content-bg {
+	background-color: #f8c02d;
+}
+
+.joystick-content-font-left {
+  font-family: Futura-Bold;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  margin-left: 20px;
+  margin-right: -20px;
+  font-size: 5em;
+}
+
+
+.joystick-images-right {
+  margin-left: 6%;
+}
+
+.joystick-yellow-bg {
+  margin-top: -100px; 
+  width: 77%; 
+  margin-bottom: -40px; 
+  padding-bottom: 120px;
+}
+
+.joystick-navbar-item {
+	margin-left: -2%;
+}
+
+.joystick-button {
+  margin-top: -3em;
+  margin-left: 21px;
+  width: 100%;
+  color: white;
+  font-family: Futura-Medium;
+  font-size: 15pt;
+  border-radius:50px;
+  background-color: #f8c02d;
+  border-color: #f8c02d;
+}
+
+.joystick-logo {
+	width: 80%;
+	margin-top: 15%;
+}
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+/*Service Section */
+#joystick-services .services {
+  position: relative;
+}
+
+#joystick-services .services i {
+  position: absolute;
+  top: 0;
+  margin-left: 20px;
+  font-size: 3rem;
+  color: #FFB600;
+}
+
+#joystick-services .services .desc {
+  padding-left: 70px;
+}
+
+#joystick-services .services .desc h3 {
+  font-family: Futura-Bold;
+  font-size: 1.4em;
+  margin-left: 20px;
+}
+
+#joystick-services .services .desc p {
+  font-family: Futura-Medium;
+  font-size: 1em;
+  margin-left: 20px;
+  margin-top: -1px;
+  font-weight: 400;
+}
+
+.joystick-text-services {
+  font-size: 3.5em;
+  font-family: Futura-Bold;
+  margin-left: 10px;
+  padding-top: 5px;
+  width: 7.7em;
+}
+
+.joystick-header-services {
+  margin-left: 36px;
+  margin-bottom: 30px;
+  background-color: #31302e;
+}
+
+.joystick-services {
+  margin-top: 4em;
+}
+
+/*Service Section Ends Here */
+
+/* Latest Project Section */
+
+.joystick-projects-header {
+  color: #31302e;
+  padding-right: 30px;
+}
+
+.joystick-projects-header h3 {
+  font-family: Futura-Bold;
+  font-size: 3.4em;
+  color: #31302e;
+  padding-right: 30px;
+}
+
+.joystick-projects-section-1 {
+  height: 410px;
+  margin-top: 40px;
+}
+
+.joystick-projects-section-2 {
+  margin-top: -130px;
+  margin-left: 16px;
+  height: 410px;
+}
+
+.joystick-projects-section-3 {
+  margin-top: -210px;
+  margin-left: 16px;
+  height: 410px;
+}
+
+.joystick-img-content-left {
+  position: relative;
+  z-index: 1;
+  height: 80%;
+  margin-left: -50px;
+}
+
+.joystick-img-content-right {
+  position: relative;
+  width: 20em;
+  margin-right: -175px;
+  margin-top: -210px;
+}
+
+.joystick-img-text-1 {
+  color: white;
+  width: 810px;
+  height: 170px;
+  margin-top: -255px;
+  margin-left: 45%;
+
+  background-color: #f8c02d;
+  position: relative;
+  z-index: 0;
+}
+
+.joystick-img-text-1 h5 {
+  font-family: Futura-Bold;
+  margin-left: 180px;
+  padding-top: 3%;
+  font-size: 1em;
+}
+
+.joystick-img-text-1 p {
+  font-family: Futura-Medium-Thick;
+  margin-left: 180px;
+  padding-top: 3px;
+  padding-right: 220px;
+  font-size: 1em;
+}
+
+.joystick-img-text-2 {
+  color: white;
+  width: 850px;
+  height: 171px;
+
+  background-color: #f8c02d;
+  position: relative;
+  z-index: 2;
+}
+
+.joystick-img-text-2 h5 {
+  font-family: Futura-Bold;
+  padding-top: 4%;
+  padding-left: 23px;
+  font-size: 1em;
+}
+
+.joystick-img-text-2 p {
+  font-family: Futura-Medium-Thick;
+  padding-top: 3px;
+  padding-left: 23px;
+  padding-right: 350px;
+  font-size: 1em;
+}
+
+.joystick-img-text-3 {
+  color: white;
+  width: 600px;
+  height: 171px;
+  margin-top: -6%;
+  left: 300px;
+
+  background-color: #f8c02d;
+  position: relative;
+  z-index: 3;
+}
+
+.joystick-img-text-3 h5 {
+  font-family: Futura-Bold;
+  padding-top: 5%;
+  padding-left: 23px;
+  font-size: 1em;
+}
+
+.joystick-img-text-3 p {
+  font-family: Futura-Medium-Thick;
+  padding-top: 3px;
+  padding-left: 23px;
+  padding-right: 115px;
+  font-size: 1em;
+}
+
+.joystick-button-black {
+  font-family: Futura-Medium;
+  position: absolute;
+  top: 28%;
+  width: 40%;
+  color: white;
+  font-size: 15pt;
+  border-radius:50px;
+  background-color: #31302e;
+  border-color: #31302e;
+}
+
+/* Latest Project Section Ends Here */
+
+/*Testimonies Section */
+
+.joystick-testimonies-section {
+  margin-top: -20%;
+}
+
+.joystick-testimonies-header {
+  font-family: Futura-Bold;
+  font-weight: 700;
+  font-size: 3.4em;
+  color: #31302e;
+  margin-left: 10%;
+}
+
+.joystick-circle {
+  height: 140px;
+  width: 140px;
+    background-color: #f8c02d;
+    border-radius: 50%;
+}
+
+.joystick-testimonies-carousel {
+  margin-left: 5%;
+}
+
+.joystick-testimonies-text {
+  margin-top: 5%;
+}
+
+#joystick-testimonies .testimonies {
+  position: relative;
+}
+
+#joystick-testimonies .testimonies i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 40px;
+  color: #FFB600;
+}
+#joystick-testimonies .testimonies .desc {
+  width: 90%;
+  margin-left: 10px;
+}
+
+#joystick-testimonies .testimonies .desc h5 {
+  font-family: Futura-Bold;
+  font-size: 1.3em;
+  font-weight: 700;
+  margin-left: 20%;
+}
+
+#joystick-testimonies .testimonies .desc p {
+  font-family: Futura-Medium;
+  font-weight: 400;
+  font-size: 1em;
+  margin-left: 20%;
+}
+
+.joystick-testimonies {
+  margin-top: 4em;
+}
+
+/*Testimonies Section Ends Here */
+
+
+/* Footer Section Start Here */
+
+.footer-h3 {
+	color: #f8c02d;
+	margin-bottom: 1.5em;
+}
+
+.footer-span {
+	color: white;
+}
+
+.joystick-footer {
+	margin-left: 5%;
+}
+
+.joystick-footer h3 {
+  font-family: Futura-Bold;
+}
+
+.joystick-footer span {
+  font-family: Futura-Medium;
+}
+
+
+.joystick-copyright {
+  font-family: Futura-Medium;
+  color: #ffffff;
+  border-top: 1px solid rgba(248, 192, 45, 1);
+  clear: both;
+  margin-top: 40px !important;
+  padding: 40px 0 0 0;
+  margin-bottom: 7em;
+}
+
+.copyright-color {
+	color: #f8c02d;
+}
+
+/* Footer Ends */
+
+/* FOR DIFFERENT SCREEN RESOLUTION */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px) { 
+
+  .joystick-fonts-logo {
+    font-size: 30px;
+  }
+
+  .joystick-nav {
+    font-size: 15px;
+  }
+
+  .joystick-button {
+    margin-top: 1em;
+    margin-left: 4.1em;
+    width: 50%;
+    border-radius:50px;
+  }
+
+  .joystick-brand {
+    font-size: 60px;
+  }
+
+  .joystick-yellow-bg {
+    width: 90%; 
+  }
+
+
+/*Starting Section */
+  .joystick-content-font-left {
+    font-size: 3em;
+    margin-left: -2px;
+  }
+
+  .joystick-images-right {
+    margin-left: 0em;
+  }
+
+/*Starting Section Ends */
+
+/*Services Section */
+
+  .joystick-header-services {
+    margin-bottom: 30px;
+    margin-left: 1.1em;
+    width: 90%;
+  }
+
+  .joystick-text-services {
+    font-size: 40px;
+    margin-left: 1rem;
+    padding-top: 0.1em;
+    width: 7.7em;
+  }
+
+  #joystick-services .services i {
+    font-size: 2.8rem;
+  }
+
+  #joystick-services .services .desc h3 {
+    font-size: 1em;
+    margin-right: 10px;
+  }
+
+/* Service Section Ends */
+
+/* Project Section */
+
+  .joystick-projects-header {
+    padding-right: 15px;
+    margin-top: -90px;
+  }
+
+  .joystick-projects-header h3 {
+    margin-left: 0.4em;
+    padding-right: 0em;
+    font-size: 40px;
+  }
+
+  .joystick-img-content-left {
+    position: relative;
+    height: 11em;
+    left: 1.2em;
+    z-index: 1;
+    margin-left: -50px;
+    padding-top: 10px;
+  }
+
+  .joystick-img-content-right {
+    width: 9em;
+    margin-right: 0px;
+    margin-top: 10px;
+    bottom: 11em;
+    left: 2em;
+  }
+
+  .joystick-img-text-1 {
+    max-width: 18.4em;
+    height: 210px;
+    margin-top: -180px;
+    margin-left: auto;
+  }
+
+  .joystick-img-text-1 h5 {
+    margin-left: 7em;
+    padding-top: 5px;
+    font-size: 1em;
+  }
+
+  .joystick-img-text-1 p {
+    margin-left: 8.5em;
+    padding-top: 0px;
+    padding-right: 0px;
+    font-size: 0.8em;
+  }
+
+  .joystick-projects-section-2 {
+    margin-top: -240px;
+    margin-left: auto;
+    height: 410px;
+  }
+
+  .joystick-projects-section-3 {
+    margin-top: 32px;
+    margin-left: auto;
+    height: 190px;
+  }
+
+  .joystick-img-text-2 {
+    margin-top: 0px;
+    max-width: 100%;
+    height: 190px;
+    margin-left: auto;
+    top: 4em; 
+  }
+
+  .joystick-img-text-2 h5 {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 40px;
+    font-size: 1em;
+  }
+
+  .joystick-img-text-2 p {
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 100px;
+    font-size: 0.8em;
+  }
+
+  .joystick-img-text-3 {
+    max-width: 110%;
+    bottom: 10em;
+    margin-top: 0px;
+    height: 180px;
+    left: -15px; 
+  }
+
+  .joystick-img-text-3 h5 {
+    padding-top: 5px;
+    padding-left: 23px;
+    font-size: 1em;
+  }
+
+  .joystick-img-text-3 p {
+    padding-top: 3px;
+    padding-left: 23px;
+    padding-right: 40px;
+    font-size: 0.8em;
+  }
+
+  .joystick-button-black-mobile {
+    width: 40%;
+    color: white;
+    font-family: Futura-Medium;
+    font-size: 15pt;
+    border-radius:50px;
+    background-color: #31302e;
+    border-color: #31302e;
+
+    position: relative;
+    bottom: 7em;
+    left: 4.5em;
+  }
+
+  /*Testimony Section Start Here */
+
+  .joystick-testimonies-section {
+    margin-top: -8em;
+    margin-left: 0em;
+  }
+
+  .joystick-testimonies-header {
+    font-size: 2.2em;
+    margin-top: 0em;
+    margin-left: 0.9em;
+  }
+
+  .joystick-circle-mobile {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 3em;
+    position: relative;
+    left: 2.2em;
+    background-color: #f8c02d;
+    border-radius: 50%;
+    display: block;
+  }
+
+  .joystick-testimony-mobile {
+    margin-top: 30px;
+  }
+
+  .joystick-testimony-mobile h5 {
+    font-size: 1em;
+
+  }
+
+  .joystick-testimony-mobile p {
+    font-size: 0.8em;
+  }
+
+  /*Testimony Section Ends Here */
+
+  /* Footer Section */
+
+  .joystick-footer-joystick {
+    margin-left: 1em;
+    
+  }
+
+  .footer-h3 {
+    color: #f8c02d;
+    margin-bottom: 0.4em;
+  }
+
+  .footer-span-joystick {
+    font-size: 0.8em;
+    color: white;
+  }
+
+  .footer-span-contacts {
+    color: white;
+    font-size: 0.8em;
+  }
+
+  .joystick-footer-joystick {
+    margin-left: 5%;
+  }
+
+  .joystick-footer-contacts {
+    margin-left: 5%;
+  }
+
+  .joystick-footer-joystick {
+    font-family: Futura-Bold;
+  }
+
+  .joystick-footer-contacts {
+    font-family: Futura-Bold;
+    margin-top: 20px;
+  }
+
+  .joystick-footer span {
+    font-family: Futura-Medium;
+  }
+
+
+  .joystick-copyright {
+    font-size: 0.9em;
+    margin-top: 40px !important;
+    padding: 40px 0 0 0;
+    margin-bottom: 1em;
+  }
+
+  /* Footer Section Ends Here */
+
+}
+
+/* Small Devices Ends here */
+
+/* Medium devices start here */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .joystick-fonts-logo {
+    font-size: 40px;
+  }
+
+  .joystick-nav {
+    font-size: 16px;
+  }
+
+  .joystick-yellow-bg {
+    width: 38em; 
+  }
+
+  /* Starting Section */
+  .joystick-content-font-left {
+    margin-left: -3px;
+    margin-right: 0px;
+    font-size: 4em;
+  }
+
+  .joystick-images-right {
+    margin-left: 0px;
+  }
+
+  .joystick-button {
+    margin-top: 1em;
+    margin-left: 10em;
+    width: 10em;
+    font-size: 12pt;
+  }
+
+  /* End Starting Section */
+
+  /* Services Section */
+  .joystick-text-services {
+    font-size: 3em;
+    margin-left: 10px;
+    padding-top: 5px;
+    width: 7.7em;
+  }
+
+  .joystick-header-services {
+    margin-left: 1.6em;
+    margin-bottom: 30px;
+  }
+
+  /* Service Section Ends */
+
+  /* Project Section */
+
+  .joystick-projects-header {
+    padding-right: 0px;
+    margin-top: -130px;
+    margin-right: -20px;
+  }
+
+  .joystick-projects-header h3 {
+    font-size: 3em;
+    padding-right: 0px;
+  }
+
+  .joystick-projects-section-1 {
+    margin-top: -3em;
+  }
+
+  .joystick-img-content-left {
+    position: relative;
+    height: 12em;
+    right: 1em;
+    margin-left: -50px;
+    padding-top: 0px;
+  }
+
+  .joystick-img-content-right {
+    width: 12em;
+    margin-right: 0px;
+    margin-top: 10px;
+    bottom: 7.8em;
+    left: 5em;
+  }
+
+  .joystick-img-text-1 {
+      margin-top: 0px;
+      max-width: 100%;
+      height: 140px;
+      margin-left: auto;
+      bottom: 11em; 
+  }
+
+  .joystick-img-text-1 h5 {
+    margin-left: 6em;
+    padding-top: 20px;
+    font-size: 1em;
+  }
+
+  .joystick-img-text-1 p {
+    margin-left: 7.6em;
+    padding-top: 0px;
+    padding-right: 30px;
+    font-size: 0.8em;
+  }
+
+  .joystick-projects-section-2 {
+    margin-left: 0px;
+  }
+
+  .joystick-img-text-2 {
+    margin-top: 0px;
+    max-width: 100%;
+    height: 140px;
+    margin-left: auto;
+    top: 4em; 
+  }
+
+  .joystick-img-text-2 h5 {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 40px;
+    font-size: 1em;
+  }
+
+  .joystick-img-text-2 p {
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 100px;
+    font-size: 0.8em;
+  }
+
+  .joystick-projects-section-3 {
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 6em;
+  }
+
+  .joystick-img-text-3 {
+    max-width: 105%;
+    bottom: 13em;
+    margin-top: 33px;
+    height: 140px;
+    left: -15px; 
+    z-index: 1;
+  }
+
+  .joystick-img-text-3 h5 {
+    padding-top: 20px;
+    padding-left: 23px;
+    font-size: 1em;
+  }
+
+  .joystick-img-text-3 p {
+    padding-top: 3px;
+    padding-left: 23px;
+    padding-right: 40px;
+    font-size: 0.8em;
+  }
+
+  .joystick-button-black-mobile {
+    width: 40%;
+    color: white;
+    font-family: Futura-Medium;
+    font-size: 15pt;
+    border-radius:50px;
+    background-color: #31302e;
+    border-color: #31302e;
+
+    position: relative;
+    bottom: 6.7em;
+    left: 8em;
+  }
+
+  /* Project Section Ends */
+
+  /* Testimony Section Start */
+
+  .joystick-testimonies-section {
+    margin-top: 0px;
+    margin-left: 3.8em;
+  }
+
+  .joystick-testimonies-header {
+    font-size: 3em;
+    margin-top: -2em;
+    margin-left: 1.6em;
+  }
+
+  .joystick-circle-mobile {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 3em;
+    position: relative;
+    left: 8em;
+    background-color: #f8c02d;
+    border-radius: 50%;
+    display: block;
+  }
+
+  .joystick-testimony-mobile {
+    margin-top: 30px;
+    margin-right: 3em;
+  }
+
+  .joystick-testimony-mobile h5 {
+    font-size: 1em;
+  }
+
+  .joystick-testimony-mobile p {
+    font-size: 0.8em;
+  }
+
+  /* Testimony Section Ends */  
+
+  /* Footer Section */
+
+   .joystick-footer-joystick {
+    margin-left: 1em;
+    
+  }
+
+  .footer-h3 {
+    color: #f8c02d;
+    margin-bottom: 0.4em;
+  }
+
+  .footer-span-joystick {
+    font-size: 0.8em;
+    color: white;
+  }
+
+  .footer-span-contacts {
+    color: white;
+    font-size: 0.8em;
+  }
+
+  .joystick-footer-joystick {
+    margin-left: 5%;
+  }
+
+  .joystick-footer-contacts {
+    margin-left: 5%;
+  }
+
+  .joystick-footer-joystick {
+    font-family: Futura-Bold;
+  }
+
+  .joystick-footer-contacts {
+    font-family: Futura-Bold;
+    margin-top: 20px;
+  }
+
+  .joystick-footer span {
+    font-family: Futura-Medium;
+  }
+
+
+  .joystick-copyright {
+    font-size: 0.9em;
+    margin-top: 40px !important;
+    padding: 40px 0 0 0;
+    margin-bottom: 1em;
+  }
+
+  /* Footer Section Ends */
+
+}
+
+/* Medium Devices Ends Here */
