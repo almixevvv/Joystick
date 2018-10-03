@@ -30,7 +30,7 @@
 }
 
 .joystick-img-logo {
-  margin-top: 90px; 
+  margin-top: 90px;
   margin-bottom: 165px;
 }
 
@@ -58,9 +58,9 @@
 }
 
 .joystick-yellow-bg {
-  margin-top: -100px; 
-  width: 77%; 
-  margin-bottom: -40px; 
+  margin-top: -100px;
+  width: 77%;
+  margin-bottom: -40px;
   padding-bottom: 120px;
 }
 
@@ -155,8 +155,8 @@
 }
 
 .joystick-projects-section-1 {
-  height: 410px;
-  margin-top: 40px;
+  height: 500px;
+  margin-top: 600px;
 }
 
 .joystick-projects-section-2 {
@@ -174,8 +174,8 @@
 .joystick-img-content-left {
   position: relative;
   z-index: 1;
-  height: 80%;
-  margin-left: -50px;
+  height: 100%;
+  margin-left: 20px;
 }
 
 .joystick-img-content-right {
@@ -387,7 +387,7 @@
 /* FOR DIFFERENT SCREEN RESOLUTION */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
 
   .joystick-fonts-logo {
     font-size: 30px;
@@ -409,7 +409,7 @@
   }
 
   .joystick-yellow-bg {
-    width: 90%; 
+    width: 90%;
   }
 
 
@@ -518,7 +518,7 @@
     max-width: 100%;
     height: 190px;
     margin-left: auto;
-    top: 4em; 
+    top: 4em;
   }
 
   .joystick-img-text-2 h5 {
@@ -540,7 +540,7 @@
     bottom: 10em;
     margin-top: 0px;
     height: 180px;
-    left: -15px; 
+    left: -15px;
   }
 
   .joystick-img-text-3 h5 {
@@ -613,7 +613,7 @@
 
   .joystick-footer-joystick {
     margin-left: 1em;
-    
+
   }
 
   .footer-h3 {
@@ -679,7 +679,7 @@
   }
 
   .joystick-yellow-bg {
-    width: 38em; 
+    width: 38em;
   }
 
   /* Starting Section */
@@ -755,7 +755,7 @@
       max-width: 100%;
       height: 140px;
       margin-left: auto;
-      bottom: 11em; 
+      bottom: 11em;
   }
 
   .joystick-img-text-1 h5 {
@@ -780,7 +780,7 @@
     max-width: 100%;
     height: 140px;
     margin-left: auto;
-    top: 4em; 
+    top: 4em;
   }
 
   .joystick-img-text-2 h5 {
@@ -808,7 +808,7 @@
     bottom: 13em;
     margin-top: 33px;
     height: 140px;
-    left: -15px; 
+    left: -15px;
     z-index: 1;
   }
 
@@ -878,13 +878,13 @@
     font-size: 0.8em;
   }
 
-  /* Testimony Section Ends */  
+  /* Testimony Section Ends */
 
   /* Footer Section */
 
    .joystick-footer-joystick {
     margin-left: 1em;
-    
+
   }
 
   .footer-h3 {
