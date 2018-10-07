@@ -36,6 +36,13 @@ font-size: 20px;
 	background-color: #31302e;
 }
 
+.joystick-main-bg img {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    height: auto;
+    width: 100%;
+}
+
 .joystick-content-bg {
 	background-color: #f8c02d;
 }
@@ -45,15 +52,17 @@ font-size: 20px;
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
-  margin-left: 1.2rem;
-  margin-right: -1rem;
+  margin-left: 1rem;
+  
+  margin-top: 1.5rem;
   font-size: 4em;
 }
 
 .joystick-images-right {
-  margin-left: 3rem;
-  height: auto;
-  width: 100%;
+  margin-left: -1.0rem;
+  margin-top: 2.2rem;
+  object-fit: contain;
+  height: 30rem;
 }
 
 .joystick-yellow-bg {
@@ -160,7 +169,7 @@ font-size: 20px;
 .joystick-button-black {
   font-family: Futura-Medium;
   position: absolute;
-  top: 28%;
+  top: 23rem;
   width: 40%;
   color: white;
   border-radius:50px;
@@ -173,7 +182,7 @@ font-size: 20px;
 /*Testimonies Section */
 
 .joystick-testimonies-section {
-  margin-top: -7rem;
+  margin-top: 10rem;
   margin-bottom: 7rem;
 }
 
@@ -283,18 +292,98 @@ font-size: 20px;
 /* FOR DIFFERENT SCREEN RESOLUTION */
 
 /* Extra small devices (less than 544px) */
-@media (max-width: 543px) {
+ @media (max-width: 543px) {
 
-  .joystick-images-right {
-    margin-left: 0rem;
-    height: auto;
-    width: 100%;
-  }
+     html {
+         font-size: 20px;
+     }
+     
+     .joystick-fonts-logo {
+         font-size: 1.5em;
+     }
 
+     .joystick-nav {
+         font-size: 0.9em;
+}
+     .joystick-main-bg img {
+    margin-top: 3rem;
+    margin-bottom: 7.5rem;
+}
+     
+     .joystick-content-font-left {
+  margin-left: 0rem;
+  margin-top: 1.5rem;
+  font-size: 3em;
 }
 
+.joystick-images-right {
+  margin-left: 0rem;
+  height: 30rem;
+}
+     
+     .joystick-button {
+  margin-top: -5rem;
+  margin-left: 4rem;
+  width: 60%;
+}
+     
+     .joystick-header-services {
+  margin-left: 1.4rem;
+  margin-bottom: 2rem;
+         font-size: 0.70em;
+}
+     
+       .joystick-projects-header {
+           text-align: right
+  }
+
+  .joystick-projects-section-1 {
+    height: 5rem;
+    margin-top: 0.2rem;
+  }
+
+  .joystick-projects-section-1 img {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    margin-left: 0.2rem;
+  }
+     
+      .joystick-button-black-mobile {
+    width: 40%;
+    color: white;
+    font-family: Futura-Medium;
+    font-size: 1em;
+    border-radius: 50px;
+    background-color: #31302e;
+    border-color: #31302e;
+    position: relative;
+    top: -11rem;
+    left: 12em;
+}
+     
+     .joystick-testimonies-section {
+  margin-top: -8rem;
+  margin-bottom: 7rem;
+}
+     
+     .joystick-circle-mobile {
+    height: 7.5rem;
+    width: 7.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    left: 5rem;
+    background-color: #f8c02d;
+    border-radius: 50%;
+    display: block;
+  }
+
+
+} 
+
 /* Small devices (landscape phones, 544px and up) */
-@media (min-width: 544px) {
+/* @media (min-width: 544px) {
 
   html {
     font-size: 14px;
@@ -463,6 +552,8 @@ font-size: 20px;
   .copyright-color {
   	color: #f8c02d;
   }
+}
+  */
 
 
 
@@ -477,8 +568,8 @@ font-size: 20px;
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   html {
     font-size: 20px;
   }
-}
+} */
