@@ -42,8 +42,8 @@ div {
 }
 
 .joystick-main-bg img {
-    margin-top: 3rem;
-    margin-bottom: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 0.9rem;
     height: auto;
     width: 100%;
 }
@@ -52,43 +52,50 @@ div {
 	background-color: #f8c02d;
 }
 
+.joystick-header h2 {
+    margin-left: 1.5rem;
+}
+
+.joystick-header img {
+    margin-top: -7.4rem;
+}
+
 .joystick-content-font-left {
   font-family: Futura-Bold;
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
   margin-left: 1rem;
-  
   margin-top: 1.5rem;
   font-size: 4em;
 }
 
 .joystick-images-right {
   margin-left: -1.0rem;
-  margin-top: 2.2rem;
   object-fit: contain;
   height: 30rem;
 }
 
+
 .joystick-yellow-bg {
   margin-top: -4rem;
-  width: 80%;
+  width: 50rem;
   margin-bottom: -10rem;
 }
 
+.joystick-btn-header {
+    margin-top: -9rem;
+}
+
 .joystick-button {
-  margin-top: -7.5rem;
-  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-left: 5rem;
   width: 100%;
   color: white;
   font-family: Futura-Medium;
   border-radius: 50px;
   background-color: #f8c02d;
   border-color: #f8c02d;
-}
-
-.container-fluid {
-    padding: 60px 50px;
 }
 
 /*Service Section */
@@ -124,7 +131,7 @@ div {
 }
 
 .joystick-text-services {
-  font-size: 2.7em;
+  font-size: 4em;
   font-family: Futura-Bold;
   margin-left: 1rem;
   padding-top: 0.5rem;
@@ -169,6 +176,7 @@ div {
   margin-top: -0.1rem;
   height: 410px;
   margin-left: 18rem;
+    margin-bottom: 20rem;
 }
 
 .joystick-button-black {
@@ -187,7 +195,7 @@ div {
 /*Testimonies Section */
 
 .joystick-testimonies-section {
-  margin-top: 10rem;
+  margin-top: 7rem;
   margin-bottom: 7rem;
 }
 
@@ -201,7 +209,7 @@ div {
 
 .joystick-circle {
   height: 7rem;
-  width: 6rem;
+  width: 7rem;
     background-color: #f8c02d;
     border-radius: 50%;
 }
@@ -307,19 +315,32 @@ div {
      .joystick-fonts-logo {
          font-size: 1.5em;
      }
+     
+         .joystick-yellow-bg {
+  width: 24rem;
+  margin-bottom: -10rem;
+}
 
      .joystick-nav {
          font-size: 0.9em;
 }
      .joystick-main-bg img {
     margin-top: 3rem;
-    margin-bottom: 7.5rem;
+    margin-bottom: 5.5rem;
 }
      
      .joystick-content-font-left {
   margin-left: 0rem;
   margin-top: 1.5rem;
   font-size: 3em;
+}
+     
+     .joystick-header h2 {
+    margin-left: 1.5rem;
+}
+
+.joystick-header img {
+    margin-top: 0rem;
 }
 
 .joystick-images-right {
@@ -328,7 +349,7 @@ div {
 }
      
      .joystick-button {
-  margin-top: -5rem;
+  margin-top: 5rem;
   margin-left: 4rem;
   width: 60%;
 }
@@ -340,7 +361,7 @@ div {
 }
      
     .joystick-projects-header {
- text-align: right
+ text-align: right;
 }
 
   .joystick-projects-section-1 {
@@ -364,12 +385,12 @@ div {
     background-color: #31302e;
     border-color: #31302e;
     position: relative;
-    top: -11rem;
-    left: 12em;
+    top: -29rem;
+    left: 7.3em;
 }
      
      .joystick-testimonies-section {
-  margin-top: -8rem;
+  margin-top: -25rem;
   margin-bottom: 7rem;
 }
      
@@ -379,7 +400,7 @@ div {
     margin-top: 1rem;
     margin-bottom: 1rem;
     position: relative;
-    left: 5rem;
+    left: 6.5rem;
     background-color: #f8c02d;
     border-radius: 50%;
     display: block;
@@ -476,63 +497,89 @@ div {
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {
     
-     html {
-         font-size: 20px;
+         html {
+         font-size: 14px;
      }
      
      .joystick-fonts-logo {
-         font-size: 1.5em;
+         font-size: 2em;
      }
-
-     .joystick-nav {
-         font-size: 0.9em;
+    
+    .joystick-nav {
+         font-size: 1.3em;
 }
      .joystick-main-bg img {
-    margin-top: 3rem;
-    margin-bottom: 7.5rem;
+    margin-top: 0rem;
+    margin-bottom: 4.7rem;
 }
-     
+    
+    .joystick-main-bg img {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    height: auto;
+    width: 100%;
+}
+    
+    .joystick-yellow-bg {
+  width: 45rem;
+}
+
      .joystick-content-font-left {
   margin-left: 0rem;
   margin-top: 1.5rem;
-  font-size: 3em;
+  font-size: 3.5em;
+}
+     
+     .joystick-header h2 {
+    margin-left: 1.5rem;
+}
+
+.joystick-header img {
+    margin-top: -5rem;
 }
 
 .joystick-images-right {
-  margin-left: 0rem;
-  height: 30rem;
+  margin-left: 1rem;
+  height: 40rem;
 }
      
      .joystick-button {
-  margin-top: -5rem;
-  margin-left: 4rem;
-  width: 60%;
+  margin-top: -1rem;
+  margin-left: 6rem;
+  width: 100%;
 }
-     
-     .joystick-header-services {
-  margin-left: 1.4rem;
+
+#joystick-services .services i {
+  font-size: 2.5em;
+  margin-left: 0rem;
+}
+
+#joystick-services .services .desc h3 {
+  margin-left: 0.3em;
+  padding-top: 0.1rem;
+  font-size: 1.4em;
+}
+
+#joystick-services .services .desc p {
+  margin-left: 0.4em;
+    font-size: 1.1em;
+}
+
+.joystick-text-services {
+  font-size: 4em;
+  font-family: Futura-Bold;
+  margin-left: 1rem;
+  padding-top: 0.5rem;
+  width: 7.7em;
+}
+
+.joystick-header-services {
+  margin-left: 1.2rem;
   margin-bottom: 2rem;
-         font-size: 0.70em;
+    font-size: 0.7em;
 }
-     
-    .joystick-projects-header {
- text-align: right
-}
-
-  .joystick-projects-section-1 {
-    height: 5rem;
-    margin-top: 0.2rem;
-  }
-
-  .joystick-projects-section-1 img {
-    width: 100%;
-    height: auto;
-    margin-top: 2rem;
-    margin-left: 0.2rem;
-  }
-     
-      .joystick-button-black-mobile {
-    width: 40%;
+     .joystick-button-black-mobile {
+    width: 20%;
     color: white;
     font-family: Futura-Medium;
     font-size: 1em;
@@ -540,28 +587,36 @@ div {
     background-color: #31302e;
     border-color: #31302e;
     position: relative;
-    top: -11rem;
-    left: 12em;
+    top: -24rem;
+    left: 17.5em;
 }
-     
-     .joystick-testimonies-section {
-  margin-top: -8rem;
+      .joystick-testimonies-section {
+  margin-top: -20rem;
   margin-bottom: 7rem;
 }
      
      .joystick-circle-mobile {
-    height: 7.5rem;
-    width: 7.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    height: 11rem;
+    width: 11rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     position: relative;
-    left: 5rem;
+    left: 15rem;
     background-color: #f8c02d;
     border-radius: 50%;
     display: block;
   }
-     
-     .footer-h3 {
+    
+    .joystick-testimonies-header{
+        margin-left: 0rem;
+    }
+    
+    .joystick-testimony-mobile p {
+        margin-left: 1rem;
+        font-size: 1.3em;
+    }
+    
+         .footer-h3 {
   	color: #f8c02d;
   	margin-bottom: 1.5em;
   }
@@ -612,38 +667,20 @@ div {
   }
 
   .joystick-footer-joystick {
-    font-family: Futura-Bold;
+      font-size: 1.5em;
   }
 
   .joystick-footer-contacts {
-    font-family: Futura-Bold;
-    margin-top: 20px;
-  }
-
-  .joystick-footer span {
-    font-family: Futura-Medium;
+    font-size: 1.5em;
+      margin-top: 20px;
   }
 
 
   .joystick-copyright {
-    font-size: 0.9em;
+    font-size: 1.2em;
     margin-top: 40px !important;
     padding: 40px 0 0 0;
     margin-bottom: 1em;
-  }
-
-  .joystick-copyright {
-    font-family: Futura-Medium;
-    color: #ffffff;
-    border-top: 1px solid rgba(248, 192, 45, 1);
-    clear: both;
-    margin-top: 40px !important;
-    padding: 40px 0 0 0;
-    margin-bottom: 1em;
-  }
-
-  .copyright-color {
-  	color: #f8c02d;
   }
 
 }
