@@ -8,7 +8,7 @@
   <meta name="description" content="Let’s create a meaningful value with us trough social media!" />
   <meta name="keywords" content="joystick, social media" />
   <meta name="author" content="Al Mixev Victoro D" />
-
+  
   <title>Joystick</title>
 
   <link rel="icon" type="image/png" href="favicon.png">
@@ -82,79 +82,59 @@
 
     </div> <!-- / .container -->
   </nav> <!-- / .navbar -->
-
+  
   <!-- Joystick Logo -->
-  <div class="joystick-main-bg">
-    <div class="col-lg-6 col-md-10 mx-auto">
-      <img src="images/Joystick_Logo.png" class="img-fluid animated fadeInUpBig"/>
+  <div class="joystick-main-bg d-flex justify-content-center">
+    <div class="row">
+       <div class="col-10 col-lg-10 mx-auto pb-lg-5 mb-5 pb-5 pt-3 mb-5">
+         <img src="images/Joystick_Logo.png" class="animated fadeInUpBig"/>
+       </div>    
     </div>
   </div>
 
   <!-- Joystick Logo Ends Here -->
 
   <div class="joystick-content-bg">
-
-    <div class="d-flex justify-content-center">
-
-      <div class="bg-light joystick-yellow-bg">
-
-
+      <div class="bg-light joystick-white-bg mx-auto">
+       
         <!-- Content 1 Start Here -->
-
         <div class="container joystick-header">
-
           <div class="row">
-
-            <h2 class="col-lg-6 col-md-6 text-uppercase joystick-content-font-left wow fadeInUp slow" data-wow-delay=".3s">
+            <h2 class="col-lg-6 col-12 text-uppercase ml-lg-4 mt-lg-4 wow fadeInUp slow" data-wow-delay=".3s">
               TAKE YOUR <br>
               BUSINESS <br>
               to the <br>
               next level
             </h2>
             
-                <img src="images/image-right.jpg" class="col-lg-5 col-md-5 joystick-images-right wow fadeInUp slow" data-wow-delay=".3s"/>
-
-          </div>
-
-          <div class="row joystick-btn-header">
-
-            <div class="col-lg-4 col-sm-3 col-md-3">
-
-              <p><a href="#" class="btn joystick-button wow fadeInUp slow" data-wow-delay=".3s">Learn More</a></p>
-
+            <div class="col-lg-5 col-md-5 mt-lg-5 ml-lg-4" id="header-image">
+              <img src="images/image-right.jpg" class="img-fluid wow fadeInUp slow" data-wow-delay=".3s"/>
             </div>
-
+            
           </div>
-
+          
+          <div class="row joystick-btn-header">
+            <div class="col-lg-5 col-sm-3 col-md-3 ml-lg-4 col-12 mt-4 d-flex justify-content-center justify-content-lg-start">
+              <p>
+                 <a href="#" class="btn joystick-button wow fadeInUp slow" data-wow-delay=".3s">Learn More</a>
+              </p>
+            </div>
+          </div>
+          
         </div>
-
-
         <!-- Content 1 Ends Here -->
 
-        <p><br /></p>
-
-        <p><br /></p>
-
-
         <!-- Content 2 Start Here -->
-
         <div id="joystick-services">
-
           <div class="flexslider container">
-
             <div class="row">
-
-              <div class="joystick-header-services wow fadeInUp slow">
-
+              <div class="col-lg-7 col-10 ml-4 mb-3 ml-lg-5 mb-lg-5 joystick-header-services wow fadeInUp slow">
                 <h3 class="text-uppercase joystick-text-services" style="color: white;">our services</h3>
-
               </div>
-
             </div>
 
-            <div class="row wow fadeInUp slow">
-
-              <div class="col-md-4">
+            <div class="row wow fadeInUp slow ml-lg-2">
+              <div class="col-lg-4">
                 <div class="services">
                   <i class="icon-laptop"></i>
                   <div class="desc">
@@ -164,7 +144,7 @@
                 </div>
               </div>
 
-              <div class="col-md-4">
+              <div class="col-lg-4">
                 <div class="services">
                   <i class="icon-server"></i>
                   <div class="desc">
@@ -174,7 +154,7 @@
                 </div>
               </div>
 
-              <div class="col-md-4">
+              <div class="col-lg-4">
                 <div class="services">
                   <i class="icon-money"></i>
                   <div class="desc">
@@ -186,9 +166,9 @@
 
             </div>
 
-            <div class="row wow fadeInUp slow" style="margin-top: 3%;">
+            <div class="row wow fadeInUp slow ml-lg-2 mt-lg-3">
 
-              <div class="col-md-4">
+              <div class="col-lg-4">
                 <div class="services">
                   <i class="icon-tablet"></i>
                   <div class="desc">
@@ -198,7 +178,7 @@
                 </div>
               </div>
 
-              <div class="col-md-4 animate-box">
+              <div class="col-lg-4">
                 <div class="services">
                   <i class="icon-line-chart"></i>
                   <div class="desc">
@@ -208,7 +188,7 @@
                 </div>
               </div>
 
-              <div class="col-md-4 animate-box">
+              <div class="col-lg-4">
                 <div class="services">
                   <i class="icon-pie-chart"></i>
                   <div class="desc">
@@ -228,44 +208,42 @@
 
         <!-- Content 3 Start Here -->
         <div class="container joystick-projects">
-          <div class="row float-lg-right float-sm-right">
-            <div class="joystick-projects-header">
+          <div class="row d-flex justify-content-lg-end joystick-projects-header mr-lg-3 mb-lg-4">
               <h3 class="text-uppercase wow fadeInUp slow">latest projects</h3>
-            </div>
           </div>
 
           <!-- Image Left -->
-          <div class="joystick-projects-section-1 wow fadeInUp slow">
-              <img src="images/stand-phone-resize.png" />
+          <div class="row wow fadeInUp slow">
+             <div class="col-lg-11 mx-auto" id="latest-projects">
+              <img class="mx-auto" src="images/stand-phone-resize.png" />
+             </div>
           </div>
+          
           <!-- Last Projects -->
-          <div class="col-lg-5 joystick-projects-section-3 wow fadeInUp slow">
+          <div class="col-lg-5 wow fadeInUp slow float-right" id="projects-button">
             <p>
-              <a href="#" class="btn joystick-button-black d-none d-lg-block">More</a>
+              <a href="#" class="btn joystick-button-black d-none d-lg-block float-right">More</a>
             </p>
           </div>
-
-          <div class="row d-lg-none">
-            <div class="col-lg-5">
-              <!-- Button for Mobile -->
-              <p>
-                <a href="#" class="btn joystick-button-black-mobile wow fadeInUp slow">More</a>
-              </p>
-              <!-- Button for Mobile Ends -->
-            </div>
+          
+          <!-- Last Projects -->
+          <div class="col-9 ml-2 mt-5 d-lg-none wow fadeInUp slow d-flex justify-content-center" id="projects-button">
+            <p>
+              <a href="#" class="btn joystick-button-black ">More</a>
+            </p>
           </div>
 
         </div>
         <!-- Content 3 Ends Here -->
-
-        <div class="container joystick-testimonies-section" id="joystick-testimonies">
+        
+        <div class="container joystick-testimonies-section mb-5 pb-5" id="joystick-testimonies">
           <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-12 col-12 mt-5 ml-lg-3">
               <h3 class="text-uppercase joystick-testimonies-header wow fadeInUp slow">testimonies</h3>
             </div>
           </div>
 
-          <div class="row d-none d-lg-block">
+          <div class="row d-none d-lg-block mb-5 pb-5">
             <div class="owl-carousel owl-theme wow fadeInUp slow">
               <div class="item">
                 <div id="joystick-testimonies" class="joystick-testimonies-text">
@@ -348,39 +326,34 @@
               <div class="item">
                 <div class="container">
                   <div class="row">
-                    <div class="col-lg-12 col-md-10">
+                    <div class="col-lg-12 col-md-10 col-12 mb-4">
                       <span class="joystick-circle-mobile"> </span>
                     </div>
                   </div>
 
-                  <div class="row d-flex justify-content-center">
-                   <div class="col-md-6">
-                   <h3 class="font-weight-bold">TEMPLATE FOR MOBILE</h3>
-                   </div>
-             
+                  <div class="row">
+                    <h5 class="font-weight-bold testimonies-title">TEMPLATE FOR MOBILE</h5>
                   </div>
 
                   <div class="row">
-                   <div class="col-md-10">
                     <p class="text-center">Te sit ancillae conceptam repudiandae, te quo sensibus suscipiantur, affert probatus
                       ex usu. Id sint malis conceptam sea, eam an menandri corrumpit. Dolorem theophrastus
                       nec eu,dico soleat invenire id his, solet tantas alterum an mei. Ei sit diam antiopam
                       consectetuer, purto epicurei no mei.</p>
-                      </div>
                   </div>
                 </div>
               </div>
-
-              <div class="item">
+              
+                            <div class="item">
                 <div class="container">
                   <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-12 col-md-10 col-12 mb-4">
                       <span class="joystick-circle-mobile"> </span>
                     </div>
                   </div>
 
-                  <div class="row d-flex justify-content-center">
-                    <h5 class="font-weight-bold">TEMPLATE FOR MOBILE</h5>
+                  <div class="row">
+                    <h5 class="font-weight-bold testimonies-title">TEMPLATE FOR MOBILE</h5>
                   </div>
 
                   <div class="row">
@@ -391,25 +364,40 @@
                   </div>
                 </div>
               </div>
+              
+                            <div class="item">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-12 col-md-10 col-12 mb-4">
+                      <span class="joystick-circle-mobile"> </span>
+                    </div>
+                  </div>
 
+                  <div class="row">
+                    <h5 class="font-weight-bold testimonies-title">TEMPLATE FOR MOBILE</h5>
+                  </div>
+
+                  <div class="row">
+                    <p class="text-center">Te sit ancillae conceptam repudiandae, te quo sensibus suscipiantur, affert probatus
+                      ex usu. Id sint malis conceptam sea, eam an menandri corrumpit. Dolorem theophrastus
+                      nec eu,dico soleat invenire id his, solet tantas alterum an mei. Ei sit diam antiopam
+                      consectetuer, purto epicurei no mei.</p>
+                  </div>
                 </div>
               </div>
 
             </div>
+           </div>
 
-          </div>
-
-          <!-- Carousel Mobile Ends Here -->
+         </div>
 
         </div>
+
+          <!-- Carousel Mobile Ends Here -->
 
         <!-- Testimony Section Ends Here -->
 
       </div>
-
-    </div>
-
-  </div>
 
   <!-- White Background Ends Here -->
 
