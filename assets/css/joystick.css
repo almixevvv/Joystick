@@ -315,11 +315,13 @@ html {
 
   .joystick-footer-joystick {
       font-size: 0.90em;
+      margin-left: 2.3rem;
   }
 
   .joystick-footer-contacts {
     font-size: 0.90em;
       margin-top: 20px;
+      margin-left: 2.3rem;
   }
 
 
