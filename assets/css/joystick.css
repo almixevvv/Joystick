@@ -27,9 +27,9 @@ html {
 }
 
 .joystick-brand {
-  font-size: 3em;
-  font-variant: normal;
+  font-size: 4em;
   font-weight: 700;
+  font-family: Futura-Medium-Thick;
 }
 
 .joystick-nav {
@@ -213,6 +213,10 @@ html {
 	color: white;
 }
 
+#footer-joystick {
+    margin-left: 5.7rem;
+}
+
 .joystick-footer h3 {
   font-family: Futura-Bold;
 }
@@ -345,8 +349,6 @@ html {
 
 .footer-span-contacts {
   font-family: Futura-Medium;
-     
-
 } 
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
