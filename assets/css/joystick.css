@@ -38,6 +38,10 @@ html {
   color: #fefefe;
 }
 
+.joystick-nav-item {
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
 .joystick-content-bg {
 	background-color: #f8c02d;
     display: flex;
@@ -45,23 +49,29 @@ html {
 
 .joystick-main-bg {
 	background-color: #31302e;
-    width: 100%;
-    margin: 0;
 }
 
-.joystick-main-bg img {
-    width: 80%;
+#joystick-header-background {
+    width: 84%;
+}
+
+#joystick-header-logo {
+    width: 20%;
 }
 
 .joystick-white-bg {
     margin-top: -3rem;
-    width: 75%
+    width: 85%
+}
+
+#joystick-section-two {
+    width: 85%
 }
 
 /*Header First Section */
 .joystick-header h2 {
     font-family: Futura-Bold;
-    font-size: 5.5em;
+    font-size: 3.5em;
 }
 
 #header-image img {
@@ -73,7 +83,6 @@ html {
 .joystick-button {
   width: 170%;
     font-size: 1rem;
-  margin-top: -9rem;
   color: white;
   font-family: Futura-Medium;
   border-radius: 50px;
@@ -129,8 +138,9 @@ html {
   font-size: 3.5em;
 }
 
-#latest-projects img {
-    width: 100%;
+#joystick-projects {
+    width: 120%;
+    margin-left: -7rem;
 }
 
 .joystick-button-black {
@@ -201,11 +211,14 @@ html {
 /* Footer Section Start Here */
 
 #joystick-contacts {
-    margin-top: -5rem;
-    padding-top: 10rem;
+    padding-top: 2rem;
 }
 
-.footer-h3 {
+#footer-joystick {
+	color: #fefefe;
+}
+
+#footer-contact {
 	color: #f8c02d;
 }
 
@@ -214,7 +227,7 @@ html {
 }
 
 #footer-joystick {
-    margin-left: 5.7rem;
+    margin-left: 1rem;
 }
 
 .joystick-footer h3 {
@@ -237,6 +250,10 @@ html {
 
 .copyright-color {
 	color: #f8c02d;
+}
+
+#joystick-section-last {
+    padding-bottom: 4rem;
 }
 
 /*
